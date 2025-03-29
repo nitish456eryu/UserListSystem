@@ -1,25 +1,12 @@
-# UserListSystem
+# React + Vite
 
-Here we create a website using React.Js and Vite. 
- 
-**File Structure** 
-/src 
-  /components 
-    /login.jsx 
-    /usersList.jsx 
-App.css  
-App.jsx  
-Index.css
-main.jsx 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-**Step 1:- create project using following command in terminal** 
-npm create vite@latest regresapiintegration 
-**step 2:- go to project directory using following command and install node module** 
-cd regresapiintegration
-npm install  
-**Step 3:-Now  install react-router-dom  and axios**
-npm install react-router-dom
-npm install axios
-**Step 4:- Run project using following command** 
-npm run dev 
+Currently, two official plugins are available:
 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
