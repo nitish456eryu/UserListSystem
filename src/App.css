@@ -8,8 +8,32 @@ table,td,th{
 td,th,img{
   width: 100px;
 }
-button{
+
+.login-page{
+  text-align: center;
+}
+
+
+.login-header{
+  font-size: 1.6rem;
+  margin: 10px 13%;
+}
+
+.login-page-input{
+  width: min(300px,80%);
+  margin: 10px 10%;
+  height: 2rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.login-button{
+  color: aliceblue;
+  background-color: blue;
+  width: min(300px,80%);
+  height: 2rem;
+  font-size: larger;
+  margin: 10px 10%;
   border: 2px solid black;
-  margin: 10px;
-  margin-right: 95px;
+  border-radius: 15px;
 }
